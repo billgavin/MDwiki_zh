@@ -3,7 +3,7 @@
 
 MDwiki 是一个 __完全用 HTML5/Javascript 构建、100% 运行在客户端__  的 CMS/Wiki 引擎。不需要安装特别的软件 或 需要服务器端进程。只需要上传 内置 MDwiki 引擎的 `mdwiki.html` 文件，放到你的 MarkDown 文件的同一目录，就一切就绪了！
 
-注意：你正在浏览的网站 就是用 MDwiki 实现的，并托管在 [GitHub Pages](http://pages.github.com/) 服务上。[http://mdwiki.info](http://mdwiki.info) 重定向到此。
+Note: 你正在浏览的网站 就是用 MDwiki 实现的，并托管在 [GitHub Pages](http://pages.github.com/) 服务上。[http://mdwiki.info](http://mdwiki.info) 重定向到此。
 
 [gimmick:twitterfollow](timodoerr)
 
@@ -41,7 +41,7 @@ MDwiki 会默认在 `index.html` 同级目录中加载一个名为 `index.md` �
 
     http://example.com/
 
-注意：MDwiki 有比规范的 MarkDown 更多的特性，详见 [快速入门教程][quickstart].
+Note: MDwiki 有比规范的 MarkDown 更多的特性，详见 [快速入门教程][quickstart]。
 
 - - - -
 
