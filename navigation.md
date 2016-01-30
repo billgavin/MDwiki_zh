@@ -15,7 +15,7 @@
 
 [教程]()
 
-  * [关于本教程](tutorials.md)
+  * [关于本教程](markdown/tutorials.md)
   - - - -
   * [用 GitHub 做主机](tutorials/github.md)
   * [用 Google Drive 做主机](tutorials/drive.md)
@@ -25,8 +25,8 @@
 [示例](examples.md)
 [下载](download.md)
 [贡献](contribute/index.md)
-[博客](blog.md)
-[论坛](forum.md)
+[博客](markdown/blog.md)
+[论坛](markdown/forum.md)
 
 
 [gimmick:theme (inverse: false)](cyborg)

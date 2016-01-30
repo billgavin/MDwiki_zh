@@ -832,7 +832,7 @@
                 _Selector_[1] += (_Selector_[1].match(/[\s>\+~]\s*$/) ? '*' : '');
 
                 return _Object_.map(
-                    _Self_(iRoot, _Selector_[1]),
+                    iRoot.querySelectorAll(_Selector_[1]),
                     function (iDOM) {
                         if ( iPseudo[_Pseudo_].filter(iDOM) )
                             return  _Selector_[2]  ?
