@@ -1,6 +1,6 @@
 # MDwiki 大中华版
 
-[关于](doc/about.md)
+[关于](markdown/about.md)
 
 [文档]()
 

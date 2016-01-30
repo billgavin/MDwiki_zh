@@ -16,7 +16,7 @@
 
     <link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css" />
     <link rel="stylesheet" href="http://cdn.bootcss.com/highlight.js/8.6/styles/github.min.css" />
-    <link rel="stylesheet" href="colorbox.css" />
+    <link rel="stylesheet" href="css/colorbox.css" />
     <style>
         /* hide the main content while we assemble everything */
         .md-hidden-load { display:  none; }
@@ -32,7 +32,6 @@
          /* background-color:    rgba(0, 0, 0, 0.01); */
             font-weight:         bold;
             padding-left:        6px;
-
         }
         @media (min-width: 992px) {
             #md-page-menu.affix { position:  fixed; }
@@ -101,11 +100,11 @@
             min-height:    18em;
         }
     </style>
-    <script src="http://public.shenma.io/javascript/EasyImport.js"></script><script>
-        ImportJS('./', [
+    <script src="javascript/EasyImport.js"></script><script>
+        ImportJS([
             {
-                old_PC:    'http://cdn.bootcss.com/jquery/1.11.3/jquery.min.js',
-                new_PC:    'http://cdn.bootcss.com/jquery/2.1.4/jquery.min.js'
+                'http://cdn.bootcss.com/jquery/1.11.3/jquery.min.js':    (! $.browser.modern),
+                'http://cdn.bootcss.com/jquery/2.1.4/jquery.min.js':     $.browser.modern
             },
             [
                 'http://cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js',
@@ -115,8 +114,7 @@
             'MDwiki.min.js'
         ]);
     </script>
-</head>
-<body>
+</head><body>
     <noscript>
         This website requires Javascript to be enabled. Please turn on Javascript
         and reload the page.
@@ -124,5 +122,4 @@
 
     <div id="md-all">
     </div>
-</body>
-</html>
+</body></html>
